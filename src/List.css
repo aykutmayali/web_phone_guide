@@ -1,0 +1,34 @@
+ul{
+    background-color: honeydew;
+}
+input{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 25px;
+    line-height: 25px;
+    text-indent: 10px;
+    width: 90%;
+    text-align: center;
+    align-items: center;
+}
+.listArea{
+    
+}
+.listArea li{
+    padding: 5px;
+    background-color: orangered;
+    text-align: center;
+}
+.listArea span{
+    display: block;
+}
+.listArea span.name{
+    float: left;
+}
+.listArea span.phone{
+    float: right;
+}
+.listArea span.clearFix{
+    clear: both;
+}
+

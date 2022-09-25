@@ -1,5 +1,11 @@
+form{
+  background-color:rgb(241, 238, 227);
+}
+
 .App {
   text-align: center;
+  width: 500px;
+  margin:  0 auto;
 }
 
 .App-logo {
@@ -35,4 +41,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+ul, li{
+  margin: 1%;
+  padding: 5%;
+  list-style-type: none;
+  text-align: left;
+  width: 90%;
+}
+
+input{
+  margin: 2%;
+  padding: 2%;
+  background-color: rgb(209, 223, 249);
+  width: 90%;
+}
+
+button{
+  margin: 5%;
+  padding: 3%;
+  background-color:  rgb(94, 231, 94);
 }
